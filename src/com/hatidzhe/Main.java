@@ -8,7 +8,7 @@ public class Main {
         conv.askForCalories();
 
         // getInput()
-        String input = new java.util.Scanner( System.in ).nextLine();
+        String input = "0";
 
         // doConversion()
         double value = Double.parseDouble(input);
