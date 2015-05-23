@@ -8,13 +8,12 @@ public class Main {
         conv.askForCalories();
 
         // getInput()
-        String input = "0";
         conv.getInput();
+        String input = "0";
 
         // doConversion()
-        double value = Double.parseDouble(input);
-        double result = value * 1.163;
-        String result1 = Double.toString( result );
+        conv.doConversion();
+        String result1 = "mach ich gleich weg";
 
         // answer()
         System.out.println( input + "kcal sind " + result1 +"Wh");
