@@ -22,7 +22,13 @@ public class Converter {
         value = Double.parseDouble(input);
         result = value * 1.163;
         result1 = Double.toString(result);
+    }
+
+        public void answer() {
+            System.out.println(input + "kcal sind " + result1 + "Wh");
+
+        }
 
 
     }
-}
+
