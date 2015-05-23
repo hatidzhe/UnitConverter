@@ -5,10 +5,13 @@ package com.hatidzhe;
  */
 public class Converter {
     private String input;
+
     public void askForCalories() {
-        System.out.println("Wie viele kcal sind umzuwandeln?");}
-        public void getInput(){
-            String input = new java.util.Scanner( System.in ).nextLine();
+        System.out.println("Wie viele kcal sind umzuwandeln?");
+    }
+
+    public void getInput() {
+        String input = new java.util.Scanner(System.in).nextLine();
 
     }
 }
