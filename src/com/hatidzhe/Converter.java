@@ -17,10 +17,11 @@ public class Converter {
         input = new java.util.Scanner(System.in).nextLine();
 
     }
-    public void doConversion(){
-        double value = Double.parseDouble(input);
-        double result = value * 1.163;
-        String result1 = Double.toString( result );
+
+    public void doConversion() {
+        value = Double.parseDouble(input);
+        result = value * 1.163;
+        result1 = Double.toString(result);
 
 
     }
