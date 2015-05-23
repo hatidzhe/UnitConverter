@@ -16,7 +16,7 @@ public class Main {
         String result1 = "mach ich gleich weg";
 
         // answer()
-        System.out.println( input + "kcal sind " + result1 +"Wh");
+        conv.answer();
    
     }
 }
