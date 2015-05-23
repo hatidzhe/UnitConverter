@@ -9,11 +9,11 @@ public class Main {
 
         // getInput()
         conv.getInput();
-        String input = "0";
+
 
         // doConversion()
         conv.doConversion();
-        String result1 = "mach ich gleich weg";
+
 
         // answer()
         conv.answer();
