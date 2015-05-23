@@ -11,7 +11,7 @@ public class Converter {
     }
 
     public void getInput() {
-        String input = new java.util.Scanner(System.in).nextLine();
+        input = new java.util.Scanner(System.in).nextLine();
 
     }
 }
