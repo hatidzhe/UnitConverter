@@ -7,16 +7,14 @@ public class Main {
         Converter conv = new Converter();
         conv.askForCalories();
 
-        // getInput()
+
         conv.getInput();
 
 
-        // doConversion()
         conv.doConversion();
 
 
-        // answer()
         conv.answer();
-   
+
     }
 }
