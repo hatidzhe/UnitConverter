@@ -9,6 +9,7 @@ public class Main {
 
         // getInput()
         String input = "0";
+        conv.getInput();
 
         // doConversion()
         double value = Double.parseDouble(input);
