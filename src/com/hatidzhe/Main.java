@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // askForCalories()
-        System.out.println("Wie viele kcal sind umzuwandeln?");
+        Converter conv = new Converter();
+        conv.askForCalories();
 
         // getInput()
         String input = new java.util.Scanner( System.in ).nextLine();
