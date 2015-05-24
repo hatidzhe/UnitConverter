@@ -20,7 +20,7 @@ public class Converter {
 
     public void doConversion() {
         value = Double.parseDouble(input);
-        result = value * 1.163;
+        result = Calculator.kcalToWh( value );
         result1 = Double.toString(result);
     }
 
