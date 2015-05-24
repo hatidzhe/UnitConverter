@@ -4,6 +4,7 @@ package com.hatidzhe;
  * Created by hatidzhe on 15-5-22.
  */
 public class Converter {
+
     private String input;
     private double kcal;
     private double Wh;
@@ -24,11 +25,9 @@ public class Converter {
         output = Double.toString(Wh);
     }
 
-        public void answer() {
-            System.out.println(input + "kcal sind " + output + "Wh");
-
-        }
-
-
+    public void answer() {
+        System.out.println(input + " kcal sind " + output + " Wh");
     }
+
+}
 

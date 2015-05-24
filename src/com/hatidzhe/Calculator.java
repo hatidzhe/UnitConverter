@@ -7,7 +7,7 @@ public class Calculator {
 
     public static double kcalToWh(double kcal) {
         double Wh = kcal * 1.163;
-    return Wh;
+        return Wh;
     }
 
 }
