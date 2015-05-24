@@ -4,7 +4,6 @@ package com.hatidzhe;
  * Created by hatidzhe on 15-5-24.
  */
 public class Calculator {
-    double value;
 
     public static double kcalToWh(double value) {
         double value1 = value * 1.163;
