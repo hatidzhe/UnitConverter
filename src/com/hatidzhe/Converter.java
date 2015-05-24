@@ -5,9 +5,9 @@ package com.hatidzhe;
  */
 public class Converter {
     private String input;
-    private double value;
-    private double result;
-    private String result1;
+    private double kcal;
+    private double Wh;
+    private String output;
 
     public void askForCalories() {
         System.out.println("Wie viele kcal sind umzuwandeln?");
@@ -19,13 +19,13 @@ public class Converter {
     }
 
     public void doConversion() {
-        value = Double.parseDouble(input);
-        result = Calculator.kcalToWh( value );
-        result1 = Double.toString(result);
+        kcal = Double.parseDouble(input);
+        Wh = Calculator.kcalToWh(kcal);
+        output = Double.toString(Wh);
     }
 
         public void answer() {
-            System.out.println(input + "kcal sind " + result1 + "Wh");
+            System.out.println(input + "kcal sind " + output + "Wh");
 
         }
 

@@ -5,9 +5,9 @@ package com.hatidzhe;
  */
 public class Calculator {
 
-    public static double kcalToWh(double value) {
-        double value1 = value * 1.163;
-    return value1;
+    public static double kcalToWh(double kcal) {
+        double Wh = kcal * 1.163;
+    return Wh;
     }
 
 }
