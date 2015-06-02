@@ -15,10 +15,13 @@ public class ParserTest {
         double input1 = Parser.transformString(input);
         double expectedResult = 6;
         assertEquals(expectedResult, input1, 0);
+    }
 
-        String input2 = "hase";
-        double input3 = Parser.transformString(input2);
+    @Test
+    public void testUnexpectedInput() throws Exception {
+        String input = "hase";
+        double input1 = Parser.transformString(input);
         double expected = 0;
-        assert(input3 == expected);
+        assert(input1 == expected);
     }
 }
