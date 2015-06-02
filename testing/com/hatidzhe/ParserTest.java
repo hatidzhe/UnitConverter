@@ -16,5 +16,9 @@ public class ParserTest {
         double expectedResult = 6;
         assertEquals(expectedResult, input1, 0);
 
+        String input2 = "hase";
+        double input3 = Parser.transformString(input2);
+        double expected = 0;
+        assert(input3 == expected);
     }
 }
