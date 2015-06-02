@@ -1,7 +1,7 @@
 package com.hatidzhe;
 
 import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.PrintStream;
 
 /**
  * Created by hatidzhe on 15-5-22.
@@ -14,19 +14,19 @@ public class Converter {
     private String output;
 
     private InputStream in;
-    private OutputStream out;
+    private PrintStream out;
 
-    public Converter(InputStream in, OutputStream out) {
+    public Converter(InputStream in, PrintStream out) {
         this.in = in;
         this.out = out;
     }
 
     public void askForCalories() {
-        System.out.println("Wie viele kcal sind umzuwandeln?");
+        this.out.println("Wie viele kcal sind umzuwandeln?");
     }
 
     public void getInput() {
-        input = new java.util.Scanner(System.in).nextLine();
+        input = new java.util.Scanner(this.in).nextLine();
     }
 
 
@@ -38,7 +38,7 @@ public class Converter {
     }
 
     public void answer() {
-        System.out.println(input + " kcal sind " + output1 + " Wh");
+        this.out.println(input + " kcal sind " + output1 + " Wh");
     }
 
 }
